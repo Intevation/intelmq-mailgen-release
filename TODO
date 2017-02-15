@@ -1,0 +1,24 @@
+-*-org-*-
+
+* [0/2] Documentation
+
+** TODO Document format of `releases.conf'
+
+** TODO NEWS/Release-Notes
+
+   Should contain relevant information for system administrators.
+   Maybe aggregated from sources in the variose packages? 
+
+
+* [0/2] Packaging
+
+** TODO Debian meta package
+
+   Depending on all packages forming the release.  Most dependencies
+   should be recommendations, as the components may run on different
+   hosts.
+
+** TODO Automatic meta package creation
+
+   The relevant package configuration should be auto generated from
+   `releases.conf'.
