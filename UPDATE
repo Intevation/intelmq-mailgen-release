@@ -1,0 +1,29 @@
+Generic Upgrade Instructions
+----------------------------
+
+All steps are executed as root user, unless stated otherise.
+
+Before upgrading intelmq should be stopped:
+
+  su - intelmq -c 'intelmqctl stop'
+
+NOTE: If there are still events in the queue they will be processed
+  after restarting IntelMQ with the new bots from the upgrade.  In
+  some rare cases this might lead to unwanted behavior.  To prevent
+  this its best to first stop all collector bots and wait for the
+  queues to empty before stopping the rest oft IntelMQ.
+
+when running the IntelMQ Manager stopping the web server should be
+considered, too:
+
+  service apache2 stop
+
+Then upgrade to the latest packages, either using dpkg or `apt
+upgrade'.  Follow the release specific upgrade notes above, the start
+IntelMQ again:
+
+  su - intelmq -c 'intelmqctl start'
+
+If you stopped the web server, restart it, too:
+
+  service apache2 start
