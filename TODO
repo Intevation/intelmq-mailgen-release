@@ -9,7 +9,6 @@
    Should contain relevant information for system administrators.
    Maybe aggregated from sources in the variose packages? 
 
-
 * [0/2] Packaging
 
 ** TODO Debian meta package
@@ -22,3 +21,9 @@
 
    The relevant package configuration should be auto generated from
    `releases.conf'.
+
+* [0/2] Tools
+
+** TODO Checkout all sources for a specific release
+
+** TODO Build packages for a specific release
