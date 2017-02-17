@@ -2,6 +2,13 @@
 
 ### New
 ### Improved
+
+* minor, better Performance:
+  Since mailgen:90fbd467770d65d9cb903500ff63f2cdb64a32d5 (20170217)
+  changes to the event and contact data will take an faster effect.
+  Technical: Because some database transactions are ended earlier than before,
+  when using the api that Fody also uses.
+
 ### Upgrade
 
 * certbund-contact, contactdb, technical:
