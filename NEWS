@@ -1,3 +1,15 @@
+# PENDING release
+
+### New
+### Improved
+### Upgrade
+
+* certbund-contact, contactdb, technical:
+  since intelmq:642a4836758c3f97cb21fc46d900bf900d636ff5 (20170216):
+  the contactdb schema needs a small update, see
+  [db-updates-sql.md](intelmq/bots/experts/certbund_contact/db-updates-sql.md)
+
+
 ========================================================================
 RELEASE 01                                                    2017-01-31
 ========================================================================
