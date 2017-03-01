@@ -1,6 +1,11 @@
 # PENDING release
 
 ### New
+* certbund-contact, contactdb: Webinterface
+  Fody offers an interface to query, create and edit ContactDB entries.
+  Since mailgen:42fb0592e382fc2ef2329b18641e40340fd2ca3c (20170301)
+  since fody:c587c136e5b0b42063e937fe9a8e47279a4c84a5 (20170301)
+
 ### Improved
 
 * minor, better Performance:
@@ -10,6 +15,12 @@
   when using the api that Fody also uses.
 
 ### Upgrade
+
+* certbund-contact, api, fody, technical:
+  The webserver must use single-thread processes to serve the api,
+  to avoid write conflicts.
+  Since mailgen:42fb0592e382fc2ef2329b18641e40340fd2ca3c (20170301)
+  since fody:c587c136e5b0b42063e937fe9a8e47279a4c84a5 (20170301)
 
 * certbund-contact, contactdb, technical:
   since intelmq:642a4836758c3f97cb21fc46d900bf900d636ff5 (20170216):
