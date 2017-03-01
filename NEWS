@@ -19,7 +19,8 @@
 * certbund-contact, api, fody, technical:
   The contactdb_api module must be installed to it can be imported
   by checkticket.py. The webserver must use single-thread processes
-  to serve the api, to avoid write conflicts.
+  to serve the api, to avoid write conflicts. A postgresql user must be
+  created that has write access to the "manual" tables.
   Since mailgen:42fb0592e382fc2ef2329b18641e40340fd2ca3c (20170301)
   since fody:c587c136e5b0b42063e937fe9a8e47279a4c84a5 (20170301)
 
