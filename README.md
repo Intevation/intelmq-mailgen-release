@@ -4,9 +4,8 @@ If a more complex contact database for sending out events via
 email and other means is necessary, a combination of software components
 can be used:
 
-1. [IntelMQ](https://github.com/Intevation/intelmq/tree/integrated) from our integrated-branch
-   An upstream [IntelMQ from the Cert-Tools](https://github.com/certtools/intelmq) repository will not work.
-2. IntelMQ Manager
+1. [IntelMQ](https://github.com/Intevation/intelmq/tree/integrated) from our integrated-branch.
+2. [IntelMQ Manager](https://github.com/certtools/intelmq-manager)
 3. [IntelMQ Mailgen](https://github.com/intevation/intelmq-mailgen)
 4. [Fody-API](https://github.com/intevation/intelmq-fody-api)
 5. [Fody](https://github.com/intevation/intelmq-fody)
