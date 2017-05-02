@@ -7,7 +7,7 @@ can be used:
 1. [IntelMQ](https://github.com/Intevation/intelmq/tree/integrated) from our integrated-branch.
 2. [IntelMQ Manager](https://github.com/certtools/intelmq-manager)
 3. [IntelMQ Mailgen](https://github.com/intevation/intelmq-mailgen)
-4. [Fody-API](https://github.com/intevation/intelmq-fody-api)
+4. [Fody-Backend](https://github.com/intevation/intelmq-fody-backend)
 5. [Fody](https://github.com/intevation/intelmq-fody)
 
 Our working label for the combination is __intelmq-cb-mailgen__.
