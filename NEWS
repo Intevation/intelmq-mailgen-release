@@ -14,7 +14,7 @@
 * New Requirement: Cron
 * New Run-Modes for bots: `stream` and `scheduled` (`stream` is default)
 * Test for Disk-Space in Redis: https://github.com/certtools/intelmq/pull/860/files
-* Argument-PArsing Changed: https://github.com/certtools/intelmq/pull/873/files
+* Argument-Parsing Changed: https://github.com/certtools/intelmq/pull/873/files
   This Requires an  Upgrade of the manager to a version including
   https://github.com/certtools/intelmq-manager/commit/88f276bfc1f7efbf9050e41bb873f415130a6f3c
   (Most recent manager will do fine)
@@ -43,6 +43,16 @@
   since intelmq:642a4836758c3f97cb21fc46d900bf900d636ff5 (20170216):
   the contactdb schema needs a small update, see
   [db-updates-sql.md](intelmq/bots/experts/certbund_contact/db-updates-sql.md)
+
+* intelmq-mailgen:
+  Template names changed.
+
+* intelmq:
+  The events db needs an upgrade:
+
+    UPDATE events
+       SET "classification.taxonomy" = lower("classification.taxonomy")
+       WHERE "classification.taxonomy" IS NOT NULL;
 
 
 ========================================================================
