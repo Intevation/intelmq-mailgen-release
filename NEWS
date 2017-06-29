@@ -1,5 +1,14 @@
 # PENDING release
 
+### 2017-06-29
+
+* IntelMQ
+** Cherry-Picked e30b9ca3b91083e0515624226359b488f11f5719 in order to fix certtools/intelmq#967
+   This Hot-Fixes the NUL-Byte Problem in Shadowserver-Feeds
+** Cherry-Picked 48e01041353dfc570d970bb9c3a071a0b9239d05 in order to add a parser configuration
+   for shadowservers accessible smb feed
+   https://github.com/certtools/intelmq/issues/1027
+
 ### New
 * certbund-contact, contactdb: Webinterface
   Fody offers an interface to query, create and edit ContactDB entries.
