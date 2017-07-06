@@ -1,5 +1,9 @@
 # PENDING release
 
+### 2017-07-06
+* IntelMQ
+** Cherry-Picked ea48fa113bcf596a3a8912d48417e7f7fecf4d7d in order to fix https://github.com/certtools/intelmq/issues/1022
+
 ### 2017-06-29
 
 * IntelMQ
