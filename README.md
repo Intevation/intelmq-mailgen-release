@@ -1,18 +1,18 @@
-# IntelMQ Mailgen Release
+# IntelMQ CB Mailgen Release
 
-If a more complex contact database for sending out events via
-email and other means is necessary, a combination of software components
-can be used:
+The following combination of Free Software components
+allow an IntelMQ setup with a complex contact database,
+managed by a web interface and sending out aggregated email reports:
 
-1. [IntelMQ](https://github.com/Intevation/intelmq/tree/integrated) from our integrated-branch.
-2. [Certbund Contact Export and Rule bots](https://github.com/Intevation/intelmq-certbund-contact)
-2. [IntelMQ Manager](https://github.com/certtools/intelmq-manager)
-3. [IntelMQ Mailgen](https://github.com/intevation/intelmq-mailgen)
-4. [Fody-Backend](https://github.com/intevation/intelmq-fody-backend)
-5. [Fody](https://github.com/intevation/intelmq-fody)
+1. [IntelMQ](https://intelmq.org)
+2. [PostgreSQL](https://www.postgresql.org/)
+3. [Certbund Contact Export and Rule bots](https://github.com/Intevation/intelmq-certbund-contact)
+4. [IntelMQ Manager](https://github.com/certtools/intelmq-manager)
+5. [IntelMQ Mailgen](https://github.com/intevation/intelmq-mailgen)
+6. [Fody-Backend](https://github.com/intevation/intelmq-fody-backend)
+7. [Fody](https://github.com/intevation/intelmq-fody)
 
-Our working label for the combination is __intelmq-cb-mailgen__.
-The setup requires PostgreSQL.
+The brief name is __intelmq-cb-mailgen__.
 
 (outdated:)
 
